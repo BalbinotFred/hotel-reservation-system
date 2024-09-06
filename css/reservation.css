@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body{
 
     background-color: #000000;
-    background-image: url(banner2.png);
+    background-image: url(../imagens/banner2.png);
     background-size: cover;
     background-position: center;
     font-family: 'Roboto Slab', serif;
@@ -33,6 +33,11 @@ a:hover{
 header{
     position: relative;
     padding: 0 2rem;
+    position: relative;
+    padding: 0 2rem;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 8px 0 rgb(71, 71, 71), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 
@@ -44,6 +49,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 
 }
 
@@ -99,19 +105,20 @@ header{
 .info {
     backdrop-filter: blur(15px);
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-top: 7vh;
+    margin-bottom: 1vh;
 }
 
 .input-field{
     width: 100%;
     max-width: 400px;
     padding: 10px;
-    margin: 10px 0;
+    margin: 5px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 1rem;
@@ -171,7 +178,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }

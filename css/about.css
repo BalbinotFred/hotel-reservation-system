@@ -2,15 +2,20 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(bradcam2.png);
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
     background-size: cover;
     background-position: center;
 }
 
 header {
     color: #fff;
-    background-image: url(bradcam2.png);    
+    
+    text-align: center;
+    position: relative;
+    padding: 0 2rem;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 8px 0 rgb(71, 71, 71), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
 
@@ -96,16 +101,66 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
 
 
-.container {
-    color: #fff;
-    backdrop-filter: blur(15px);
-    padding: 20px;
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    width: 95vh;
+    padding: 0px;
     box-shadow: rgba(0, 0, 0, 0.35) 30px 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#about_oasis {
+    text-align:center;
+}
+
+
+
+.history {
+    margin-top: 5vh;
+    display: flex;
+}
+
+#history_text{
+    text-align:justify;
+    margin-left: 15px;
+
+}
+
+#img3 {
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    width: 44vh;
+    height: 31vh;
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 30px 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#title-history{
+    text-align: center;
+}
+#real_history_text {
+    text-align: center;
+}
+
+#title-service{
+    text-align: center;
+}
+
+#img4 {
+    width: 95vh;
+}
+
+
+
+
+
+
 
